@@ -1,0 +1,28 @@
+Origin: jessie-nvidia-drivers
+Label: jessie-nvidia-drivers
+Codename: jessie
+Date: Sat, 13 Aug 2016 20:04:56 UTC
+Architectures: i386 amd64
+Components: non-free
+Description: nVidia 367.x drivers for Debian "jessie"
+MD5Sum:
+ 97d1423c40add5fb98a3fe20059c9b12 56738 non-free/binary-i386/Packages
+ 9c72cd4b312748900bd706bc26aef405 11424 non-free/binary-i386/Packages.gz
+ c680a7593f90c16027f13fd677f78e88 152 non-free/binary-i386/Release
+ 4a66211c44a889711aad0be6ca839bbb 54910 non-free/binary-amd64/Packages
+ 918c897230463483cc3f8f5ea81fc073 10975 non-free/binary-amd64/Packages.gz
+ 96aca6b55a4b6447222a4bc9b46a695b 153 non-free/binary-amd64/Release
+SHA1:
+ 717dc1f96dea2c93d9d5fd211e37556b87efa551 56738 non-free/binary-i386/Packages
+ bd526531c0015b6e89a429f4ee5826650509c7bd 11424 non-free/binary-i386/Packages.gz
+ 168a63bd87efdfe5034741285a46e816ccd68228 152 non-free/binary-i386/Release
+ 7814c9085a543bb73be6ed05ab14aa1c74d10c4d 54910 non-free/binary-amd64/Packages
+ 2b8749b25d630eaacc26bc07f44306c3687c35c4 10975 non-free/binary-amd64/Packages.gz
+ 232ac3b04a285aede1a957ec4290a52fb121a55e 153 non-free/binary-amd64/Release
+SHA256:
+ 0755769df0a9566fe08ea803b3d96977bca39e592721529f6dde7c4b9b65049e 56738 non-free/binary-i386/Packages
+ d10b6ddc97ae0a9972f535a3775b2a989dd99acaef63b0dc2736e23849285022 11424 non-free/binary-i386/Packages.gz
+ e7f6a87d4274e02f60ef2b60f923477bf73d9b357842efd5dce6dc8024b9eb12 152 non-free/binary-i386/Release
+ d764f3fe8be8ed11e7d6b93b990b9db54ecdefbab1ad46a88b4bf2ea9e4b8af6 54910 non-free/binary-amd64/Packages
+ 5aec801aba89afd3444a0a88bf88f268b2ad04a3ddaa330a1dc6e7be50413780 10975 non-free/binary-amd64/Packages.gz
+ 9123bb208a7cecb9c4be480264f95f9838dbdf74981e395d4136abc144f0741a 153 non-free/binary-amd64/Release

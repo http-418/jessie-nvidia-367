@@ -1,0 +1,5 @@
+Component: non-free
+Origin: jessie-nvidia-drivers
+Label: jessie-nvidia-drivers
+Architecture: i386
+Description: nVidia 367.x drivers for Debian "jessie"

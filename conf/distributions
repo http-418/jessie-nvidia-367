@@ -1,0 +1,7 @@
+Origin: jessie-nvidia-drivers
+Label: jessie-nvidia-drivers
+Codename: jessie
+Architectures: i386  amd64
+Components: non-free
+Description: nVidia 367.x drivers for Debian "jessie"
+SignWith: 9BE98D15

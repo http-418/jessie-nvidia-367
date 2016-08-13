@@ -3,7 +3,32 @@
 <h3>Jessie packages for nVidia 367.x drivers</h3>
 <hr/>
 <p>
-These were rebuilt from the packages intended for 'stretch'/'sid'
+  These were rebuilt from the packages intended for 'stretch'/'sid' in <a href=http://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers/branches/367>Debian SVN</a>.
 </p>
+<h5>Instructions</h5>
+<ol>
+  <li>
+    <p>Install the signing key:<br/><br/>
+      <tt>
+	sudo apt-key adv --keyserver keys.gnupg.net \<br/>
+	  --recv-key 9BE98D15
+      </tt>
+    </p>
+  </li>
+  <li>
+    <p>Add a sources.list entry:<br/><br/>
+      <tt>deb "http://www.jones.ec/jessie-nvidia-367/" jessie non-free</tt>
+    </p>
+  </li>
+  <li><p>Stop your desktop manager and/or exit X11</p></li>
+  <li>
+    <p>Install the new packages:<br/><br/>
+    <tt>
+      sudo apt-get install build-essential linux-headers-amd64 \<br/>
+        nvidia-kernel-dkms nvidia-alternative nvidia-modprobe \<br/>
+        xserver-xorg-video-nvidia
+    </tt>
+    </p>
+</ol>
 </body>
 </html>
